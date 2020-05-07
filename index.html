@@ -31,6 +31,20 @@
 		<h3>DivineOffice.org Opens Registration to All</h2>
 		<p>Currently the <a href="https://divineoffice.org/welcome/">Divine Office</a> website is allowing registrations for free access to anyone that wants to sign up! This is an amazing opportunity for anyone that wants to join the faithful clergy and laity in daily prayers. They have the entire Liturgy of the Hours available each day.</p>
 	</div>
+	<div>
+    		<p>The number of visitors is : <span id="cntr">0</span></p>
+  	</div>
+
+	<script>
+		function counter_fn() {
+		var counter = document.getElementById("cntr");
+		var count = 0;
+		count = counter.value;
+		count = count + 1;
+		counter.innerHTML = count;
+		}
+		window.onload = counter_fn;
+	</script>
 
 <!--<p>This is <sup>superscripted</sup> text.</p>
 <p>This is <ins>inserted</ins> text.</p>
