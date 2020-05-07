@@ -51,6 +51,7 @@ h1{
 }
 .content {
 	font-family: arial, times, "times new roman", georgia, serif;
+	clear: both;
 }
 .definition {
 	text-align:left;
@@ -73,7 +74,7 @@ h1{
 	
 }
 .objectives {
-	font-family:arial, times, times new roman, georgia, serif;
+	font-family:arial, times, times new roman, georgia, serif;	
 }
 .objectives ul li {
 	padding-bottom: 8px;
