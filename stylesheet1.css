@@ -1,7 +1,8 @@
-html,body{
+html,body {
 	height:100%;
 	box-sizing:border-box;
 	background-color: #00f997;
+	font-family:arial, times, times new roman, georgia, serif;
 }
 .topmenu {
 
@@ -13,7 +14,7 @@ html,body{
 	padding: 0;
 }
 .topmenu ul li {
-	font-family: arial, times, times new roman, georgia, serif;
+	font-family: arial, times, "times new roman", georgia, serif;
 	color: black;
 	display: inline;
 	float: left;
@@ -42,11 +43,14 @@ h1{
 	padding:10px;
 	border-radius: 10px;
 	text-align:center;
-	font-family:arial, times, times new roman, georgia, serif;
+	font-family:	arial, times, times new roman, georgia, serif;
 	font-size: 32px;
 	color:#55ff0f;
 	background:linear-gradient(#000000,#008000);
 
+}
+.content {
+	font-family: arial, times, "times new roman", georgia, serif;
 }
 .definition {
 	text-align:left;
